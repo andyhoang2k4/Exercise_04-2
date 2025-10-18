@@ -1,21 +1,29 @@
 #ifndef PRODUCTIONWORKER_H
 #define PRODUCTIONWORKER_H
 
-#include "AdministrativeStaff.h"
+#include "Employee.h"
 
-class ProductionWorker : public AdministrativeStaff {
+class ProductionWorker : public Employee {
 private:
-    double coefficient;
+    float coefficient;
 
 public:
-    ProductionWorker(int id, const char* last_name, const char* first_name,
-                     int year_of_birth, const char* address, const char* phone,
-                     const char* department, const char* job,
-                     double salary, double allowance, double coefficient);
+    ProductionWorker(int id = 0,
+                     const char last_name[] = "",
+                     const char first_name[] = "",
+                     int year_of_birth = 0,
+                     const char address[] = "",
+                     const char phone[] = "",
+                     const char job[] = "",
+                     const char department[] = "",
+                     double salary = 0,
+                     double allowance = 0,
+                     float coefficient = 0);
 
-    ~ProductionWorker() override;
+    void setCoefficient(float coefficient);
+    float getCoefficient();
 
-    void print() const override;
+    void print() override;
 };
 
 #endif

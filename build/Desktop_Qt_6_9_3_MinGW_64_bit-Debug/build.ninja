@@ -89,6 +89,14 @@ build CMakeFiles/Exercise_04-2.dir/ProductionWorker.cpp.obj: CXX_COMPILER__Exerc
   OBJECT_DIR = CMakeFiles\Exercise_04-2.dir
   OBJECT_FILE_DIR = CMakeFiles\Exercise_04-2.dir
 
+build CMakeFiles/Exercise_04-2.dir/Employee.cpp.obj: CXX_COMPILER__Exercise_04-2_unscanned_Debug D$:/qt_learning/Exercise_04-2/Employee.cpp || cmake_object_order_depends_target_Exercise_04-2
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\Exercise_04-2.dir\Employee.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/qt_learning/Exercise_04-2/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/Exercise_04-2_autogen/include -isystem C:/Qt/6.9.3/mingw_64/include/QtCore -isystem C:/Qt/6.9.3/mingw_64/include -isystem C:/Qt/6.9.3/mingw_64/mkspecs/win32-g++
+  OBJECT_DIR = CMakeFiles\Exercise_04-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Exercise_04-2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Exercise_04-2
@@ -97,7 +105,7 @@ build CMakeFiles/Exercise_04-2.dir/ProductionWorker.cpp.obj: CXX_COMPILER__Exerc
 #############################################
 # Link the executable Exercise_04-2.exe
 
-build Exercise_04-2.exe: CXX_EXECUTABLE_LINKER__Exercise_04-2_Debug CMakeFiles/Exercise_04-2.dir/Exercise_04-2_autogen/mocs_compilation.cpp.obj CMakeFiles/Exercise_04-2.dir/main.cpp.obj CMakeFiles/Exercise_04-2.dir/AdministrativeStaff.cpp.obj CMakeFiles/Exercise_04-2.dir/ProbationerStaff.cpp.obj CMakeFiles/Exercise_04-2.dir/ProductionWorker.cpp.obj | C$:/Qt/6.9.3/mingw_64/lib/libQt6Core.a || Exercise_04-2_autogen Exercise_04-2_autogen_timestamp_deps
+build Exercise_04-2.exe: CXX_EXECUTABLE_LINKER__Exercise_04-2_Debug CMakeFiles/Exercise_04-2.dir/Exercise_04-2_autogen/mocs_compilation.cpp.obj CMakeFiles/Exercise_04-2.dir/main.cpp.obj CMakeFiles/Exercise_04-2.dir/AdministrativeStaff.cpp.obj CMakeFiles/Exercise_04-2.dir/ProbationerStaff.cpp.obj CMakeFiles/Exercise_04-2.dir/ProductionWorker.cpp.obj CMakeFiles/Exercise_04-2.dir/Employee.cpp.obj | C$:/Qt/6.9.3/mingw_64/lib/libQt6Core.a || Exercise_04-2_autogen Exercise_04-2_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = C:/Qt/6.9.3/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Exercise_04-2.dir

@@ -112,6 +112,8 @@ Exercise_04-2_autogen/timestamp: \
 	D:/qt_learning/Exercise_04-2/AdministrativeStaff.cpp \
 	D:/qt_learning/Exercise_04-2/AdministrativeStaff.h \
 	D:/qt_learning/Exercise_04-2/CMakeLists.txt \
+	D:/qt_learning/Exercise_04-2/Employee.cpp \
+	D:/qt_learning/Exercise_04-2/Employee.h \
 	D:/qt_learning/Exercise_04-2/ProbationerStaff.cpp \
 	D:/qt_learning/Exercise_04-2/ProbationerStaff.h \
 	D:/qt_learning/Exercise_04-2/ProductionWorker.cpp \

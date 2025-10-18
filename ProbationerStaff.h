@@ -1,21 +1,29 @@
 #ifndef PROBATIONERSTAFF_H
 #define PROBATIONERSTAFF_H
 
-#include "AdministrativeStaff.h"
+#include "Employee.h"
 
-class ProbationerStaff : public AdministrativeStaff {
+class ProbationerStaff : public Employee {
 private:
-    double probation_time;
+    float probation;
 
 public:
-    ProbationerStaff(int id, const char* last_name, const char* first_name,
-                     int year_of_birth, const char* address, const char* phone,
-                     const char* department, const char* job,
-                     double salary, double allowance, double probation_time);
+    ProbationerStaff(int id = 0,
+                     const char last_name[] = "",
+                     const char first_name[] = "",
+                     int year_of_birth = 0,
+                     const char address[] = "",
+                     const char phone[] = "",
+                     const char job[] = "",
+                     const char department[] = "",
+                     double salary = 0,
+                     double allowance = 0,
+                     float probation = 0);
 
-    ~ProbationerStaff() override;
+    void setProbation(float probation);
+    float getProbation();
 
-    void print() const override;
+    void print() override;
 };
 
 #endif

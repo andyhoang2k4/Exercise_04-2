@@ -193,6 +193,12 @@
 			null
 		],
 		[
+			"D:/qt_learning/Exercise_04-2/Employee.h",
+			"MU",
+			"EWIEGA46WW/moc_Employee.cpp",
+			null
+		],
+		[
 			"D:/qt_learning/Exercise_04-2/ProbationerStaff.h",
 			"MU",
 			"EWIEGA46WW/moc_ProbationerStaff.cpp",
@@ -272,6 +278,7 @@
 	"SOURCES" : 
 	[
 		[ "D:/qt_learning/Exercise_04-2/AdministrativeStaff.cpp", "MU", null ],
+		[ "D:/qt_learning/Exercise_04-2/Employee.cpp", "MU", null ],
 		[ "D:/qt_learning/Exercise_04-2/ProbationerStaff.cpp", "MU", null ],
 		[ "D:/qt_learning/Exercise_04-2/ProductionWorker.cpp", "MU", null ],
 		[ "D:/qt_learning/Exercise_04-2/main.cpp", "MU", null ]

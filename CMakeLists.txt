@@ -20,6 +20,8 @@ add_executable(Exercise_04-2
   ProbationerStaff.cpp
   ProductionWorker.h
   ProductionWorker.cpp
+  Employee.h
+  Employee.cpp
 )
 target_link_libraries(Exercise_04-2 Qt${QT_VERSION_MAJOR}::Core)
 

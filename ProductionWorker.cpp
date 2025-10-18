@@ -1,28 +1,30 @@
 #include "ProductionWorker.h"
 
-ProductionWorker::ProductionWorker(int id, const char* last_name, const char* first_name,
-                                   int year_of_birth, const char* address, const char* phone,
-                                   const char* department, const char* job,
-                                   double salary, double allowance, double coefficient)
-    : AdministrativeStaff(id, last_name, first_name, year_of_birth, address, phone, department, job, salary, allowance, 0) {
+ProductionWorker::ProductionWorker(int id,
+                                   const char last_name[],
+                                   const char first_name[],
+                                   int year_of_birth,
+                                   const char address[],
+                                   const char phone[],
+                                   const char job[],
+                                   const char department[],
+                                   double salary,
+                                   double allowance,
+                                   float coefficient)
+    : Employee(id, last_name, first_name, year_of_birth, address, phone, job, department, salary, allowance) {
     this->coefficient = coefficient;
 }
 
-ProductionWorker::~ProductionWorker() {
-    cout << "\n]ProductionWorker: " << last_name << " " << first_name << endl;
-    print();
+void ProductionWorker::setCoefficient(float coefficient) {
+    this->coefficient = coefficient;
 }
 
-void ProductionWorker::print() const {
-    cout << "\n===== PRODUCTION WORKER =====" << endl;
-    cout << "ID: " << id << endl;
-    cout << "Name: " << last_name << " " << first_name << endl;
-    cout << "Year of Birth: " << year_of_birth << endl;
-    cout << "Address: " << address << endl;
-    cout << "Phone: " << phone << endl;
-    cout << "Department: " << department << endl;
-    cout << "Job: " << job << endl;
-    cout << "Salary: " << salary << endl;
-    cout << "Allowance: " << allowance << endl;
-    cout << "Coefficient: " << coefficient << endl;
+float ProductionWorker::getCoefficient() {
+    return coefficient;
+}
+
+void ProductionWorker::print() {
+    cout << "---- Cong nhan san xuat ----" << endl;
+    Employee::print();
+    cout << "He so bac: " << coefficient << endl;
 }

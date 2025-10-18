@@ -1,33 +1,29 @@
 #ifndef ADMINISTRATIVESTAFF_H
 #define ADMINISTRATIVESTAFF_H
 
-#include <iostream>
-#include <cstring>
-using namespace std;
+#include "Employee.h"
 
-class AdministrativeStaff {
-protected:
-    int id;
-    char last_name[50];
-    char first_name[50];
-    int year_of_birth;
-    char address[100];
-    char phone[20];
-    char department[50];
-    char job[50];
-    double salary;
-    double allowance;
-    int seniority;
+class AdministrativeStaff : public Employee {
+private:
+    float seniority;
 
 public:
-    AdministrativeStaff(int id, const char* last_name, const char* first_name,
-                        int year_of_birth, const char* address, const char* phone,
-                        const char* department, const char* job,
-                        double salary, double allowance, int seniority);
+    AdministrativeStaff(int id = 0,
+                        const char last_name[] = "",
+                        const char first_name[] = "",
+                        int year_of_birth = 0,
+                        const char address[] = "",
+                        const char phone[] = "",
+                        const char job[] = "",
+                        const char department[] = "",
+                        double salary = 0,
+                        double allowance = 0,
+                        float seniority = 0);
 
-    virtual ~AdministrativeStaff(); // destructor ảo để kế thừa an toàn
+    void setSeniority(float seniority);
+    float getSeniority();
 
-    virtual void print() const;
+    void print() override;
 };
 
 #endif
