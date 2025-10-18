@@ -1,0 +1,27 @@
+# ninja log v6
+10	319	7824607784534078	Exercise_04-2_autogen/timestamp	e6036d5624e5ac8e
+10	319	7824607784534078	Exercise_04-2_autogen/mocs_compilation.cpp	e6036d5624e5ac8e
+10	319	7824607784534078	D:/qt_learning/Exercise_04-2/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/Exercise_04-2_autogen/timestamp	e6036d5624e5ac8e
+10	319	7824607784534078	D:/qt_learning/Exercise_04-2/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/Exercise_04-2_autogen/mocs_compilation.cpp	e6036d5624e5ac8e
+323	451	7824607785489197	CMakeFiles/Exercise_04-2.dir/Exercise_04-2_autogen/mocs_compilation.cpp.obj	cd71272225b4f814
+329	1057	7824607785533989	CMakeFiles/Exercise_04-2.dir/main.cpp.obj	f74629f167f3217f
+335	1086	7824607785602238	CMakeFiles/Exercise_04-2.dir/AdministrativeStaff.cpp.obj	56e18aacfff5d920
+347	1087	7824607785717874	CMakeFiles/Exercise_04-2.dir/ProductionWorker.cpp.obj	926a534001af1ce0
+341	1110	7824607785657544	CMakeFiles/Exercise_04-2.dir/ProbationerStaff.cpp.obj	69ab57d7244f005
+1110	1314	7824607793359152	Exercise_04-2.exe	9f6183e28aa5ed30
+29	179	7824608237546155	Exercise_04-2_autogen/timestamp	e6036d5624e5ac8e
+29	179	7824608237546155	Exercise_04-2_autogen/mocs_compilation.cpp	e6036d5624e5ac8e
+29	179	7824608237546155	D:/qt_learning/Exercise_04-2/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/Exercise_04-2_autogen/timestamp	e6036d5624e5ac8e
+29	179	7824608237546155	D:/qt_learning/Exercise_04-2/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/Exercise_04-2_autogen/mocs_compilation.cpp	e6036d5624e5ac8e
+184	723	7824608239104872	CMakeFiles/Exercise_04-2.dir/ProbationerStaff.cpp.obj	69ab57d7244f005
+179	734	7824608239054775	CMakeFiles/Exercise_04-2.dir/AdministrativeStaff.cpp.obj	56e18aacfff5d920
+189	758	7824608239149719	CMakeFiles/Exercise_04-2.dir/ProductionWorker.cpp.obj	926a534001af1ce0
+758	880	7824608244837779	Exercise_04-2.exe	9f6183e28aa5ed30
+29	175	7824608391878120	Exercise_04-2_autogen/timestamp	e6036d5624e5ac8e
+29	175	7824608391878120	Exercise_04-2_autogen/mocs_compilation.cpp	e6036d5624e5ac8e
+29	175	7824608391878120	D:/qt_learning/Exercise_04-2/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/Exercise_04-2_autogen/timestamp	e6036d5624e5ac8e
+29	175	7824608391878120	D:/qt_learning/Exercise_04-2/build/Desktop_Qt_6_9_3_MinGW_64_bit-Debug/Exercise_04-2_autogen/mocs_compilation.cpp	e6036d5624e5ac8e
+181	753	7824608393393736	CMakeFiles/Exercise_04-2.dir/ProbationerStaff.cpp.obj	69ab57d7244f005
+176	785	7824608393353661	CMakeFiles/Exercise_04-2.dir/AdministrativeStaff.cpp.obj	56e18aacfff5d920
+185	819	7824608393437767	CMakeFiles/Exercise_04-2.dir/ProductionWorker.cpp.obj	926a534001af1ce0
+819	948	7824608399775079	Exercise_04-2.exe	9f6183e28aa5ed30
